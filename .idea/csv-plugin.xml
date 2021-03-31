@@ -24,7 +24,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Data\input\wheels.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Ex1-SimpleDashboard.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\callback4.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\callback5.py">
           <value>
             <Attribute>
               <option name="separator" value="," />
