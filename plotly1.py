@@ -28,7 +28,7 @@ app.layout = html.Div([
                 )
             ],
             'layout': go.Layout(
-                title='Random Data Scatterplot',
+                title='Random data Scatterplot',
                 xaxis={'title': 'Some random x-values'},
                 yaxis={'title': 'Some random y-values'},
                 hovermode='closest'

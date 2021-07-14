@@ -39,7 +39,7 @@ app.layout = html.Div(children=[
                 'font': {
                     'color': colors['text']
                 },
-                'title': 'Dash Data Visualization'
+                'title': 'Dash data Visualization'
             }
         }
     )],

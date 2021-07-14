@@ -17,7 +17,7 @@ import plotly.graph_objs as go
 app = dash.Dash()
 
 # Create a DataFrame from the .csv file:
-# df = pd.read_csv('Data/input/OldFaithful.csv')
+# df = pd.read_csv('data/input/OldFaithful.csv')
 X = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Y = [20, 10, 30, 25, 22, 35, 66, 45, 67, 55]
 

@@ -11,7 +11,7 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash()
 
-df = pd.read_csv('Data/input/mpg.csv')
+df = pd.read_csv('./data/input/mpg.csv')
 
 features = df.columns
 

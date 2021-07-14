@@ -5,7 +5,8 @@ import pandas as pd
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output
 
-df = pd.read_csv('Data/input/gapminderDataFiveYear.csv')
+df = pd.read_csv('./data/input/gapminderDataFiveYear.csv')
+df.rename(columns=lambda x: x.strip(), inplace=True)
 
 app = dash.Dash()
 

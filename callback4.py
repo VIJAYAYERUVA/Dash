@@ -10,7 +10,7 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash()
 
-df = pd.read_csv('Data/input/wheels.csv')
+df = pd.read_csv('./data/input/wheels.csv')
 
 app.layout = html.Div([
     dcc.RadioItems(

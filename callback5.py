@@ -12,7 +12,7 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash()
 
-df = pd.read_csv('Data/input/wheels.csv')
+df = pd.read_csv('./data/input/wheels.csv')
 
 
 def encode_image(image_file):
@@ -58,7 +58,7 @@ def callback_b(colors_value):
     [Input('wheels', 'value'),
      Input('colors', 'value')])
 def callback_image(wheel, color):
-    path = 'Data/input/Images/'
+    path = './data/input/images/'
     return encode_image(path + df[(df['wheels'] == wheel) & (df['color '] == color)]['image'].values[0])
 
 
